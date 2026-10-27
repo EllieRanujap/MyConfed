@@ -19,7 +19,7 @@ function App(){
           <span>MYCONFED</span>
         </div>
 
-        <h1>Welcome, big back.</h1>
+        <h1>Welcome.</h1>
         <p className = "subtitle">
           Are you ready for the golden era of CCS?
         </p>
