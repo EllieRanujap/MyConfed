@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Comic Sans MS, Helvetica, sans-serif;
+  color: #17251c;
+}
+
+.page {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background: #f0f4ef;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 36px;
+  background: white;
+  border: 1px solid #e0e8df;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgb(24 60 32 / 8%);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #447ed4;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.brand-icon {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: #447ed4;
+  color: white;
+  font-size: 20px;
+}
+
+h1 {
+  margin: 32px 0 10px;
+  font-size: clamp(28px, 6vw, 36px);
+  font-family: Comic Sans MS;
+}
+
+.subtitle {
+  margin-bottom: 28px;
+  color: #68756b;
+  line-height: 1.6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px;
+  border: 1px solid #cbd6cb;
+  border-radius: 9px;
+  font: inherit;
+}
+
+input:focus {
+  outline: 2px solid #447ed4;
+  outline-offset: 2px;
+}
+
+button {
+  min-height: 48px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 9px;
+  background: #447ed4;
+  color: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #18532d;
+}
+
+.notice {
+  margin: 28px 0 0;
+  text-align: center;
+  color: #68756b;
+  font-size: 12px;
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 16px;
+  }
+
+  .login-card {
+    padding: 26px 22px;
+    border-radius: 16px;
+  }
+}
