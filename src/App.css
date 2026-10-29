@@ -4,61 +4,62 @@
 
 body {
   margin: 0;
-  font-family: Comic Sans MS, Helvetica, sans-serif;
-  color: #17251c;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #171925;
 }
 
 .page {
   min-height: 100vh;
-  min-height: 100dvh;
+  max-height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px;
-  background: #f0f4ef;
+  padding: 20px;
+  background: #a3b6f3;
 }
 
-.login-card {
+.login-card{
   width: 100%;
   max-width: 420px;
   padding: 36px;
-  background: white;
-  border: 1px solid #e0e8df;
-  border-radius: 20px;
-  box-shadow: 0 12px 40px rgb(24 60 32 / 8%);
+  background: #ffffff;
+  border: 1px solid rgb(185, 215, 216);
+  border-radius: 10px;
+  box-shadow: 0 12px 40px rgb(70, 105, 138, 0.3);
 }
 
-.brand {
+.brand{
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #447ed4;
+  color: #6bb5f1;
   font-size: 14px;
   font-weight: 800;
   letter-spacing: 2px;
 }
 
-.brand-icon {
+.brand-icon{
   display: grid;
   place-items: center;
-  width: 38px;
-  height: 38px;
+  width: 36px;
+  height: 36px;
   border-radius: 12px;
-  background: #447ed4;
-  color: white;
+  background: #1388e9;
+  color:white;
   font-size: 20px;
 }
 
 h1 {
   margin: 32px 0 10px;
-  font-size: clamp(28px, 6vw, 36px);
-  font-family: Comic Sans MS;
+  font-size: clamp(30px, 6vw, 36px);
+  color: black;
 }
 
-.subtitle {
+subtitle {
   margin-bottom: 28px;
   color: #68756b;
   line-height: 1.6;
+  font-style: italic;
 }
 
 form {
@@ -83,7 +84,7 @@ input {
 }
 
 input:focus {
-  outline: 2px solid #447ed4;
+  outline: 2px solid #398453;
   outline-offset: 2px;
 }
 
@@ -92,7 +93,7 @@ button {
   margin-top: 12px;
   border: none;
   border-radius: 9px;
-  background: #447ed4;
+  background: #216b3b;
   color: white;
   font: inherit;
   font-weight: 700;

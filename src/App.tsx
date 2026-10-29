@@ -31,7 +31,10 @@ function App(){
             type = "email"
             placeholder = "trix@su.edu.ph"
             value = {email}
-            onChange = {(event) => setEmail(event.target.value)}
+            onChange = {(event) => {
+                setEmail(event.target.value);
+              }
+            }
             required
           />
 
