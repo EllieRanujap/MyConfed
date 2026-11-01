@@ -12,7 +12,7 @@ function App(){
 
   }
 
-  const studentId = "I have a big fat pussy";
+  const studentId = "Lastname, First Name M.";
 
   return (
     <main className = "page">
