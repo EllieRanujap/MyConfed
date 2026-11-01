@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { QRCodeSVG } from 'qrcode.react';
 import './App.css';
 
 function App(){
@@ -10,6 +11,8 @@ function App(){
     alert(`Demo login submitted for: ${email}\n Authentication is not connected yet.`);
 
   }
+
+  const studentId = "I have a big fat pussy";
 
   return (
     <main className = "page">
@@ -54,6 +57,17 @@ function App(){
         <p className = "notice">
           Confederates Student Council
         </p>
+
+        
+
+        <div>
+            <h1>MyConfed QR Code</h1>
+
+            <QRCodeSVG
+                value={studentId}
+                size={250}
+            />
+        </div>
 
       </section>
     </main>
